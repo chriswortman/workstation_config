@@ -14,7 +14,7 @@ set hlsearch    " highlight matching
 
 set foldenable   " enabling folding
 
-
+inoremap <esc>
 
 
 " Vundle Specific configuration
@@ -28,7 +28,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-
+Plugin 'pearofducks/ansible-vim'
 
 
 " All of your Plugins must be added before the following line
