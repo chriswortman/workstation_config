@@ -1,8 +1,17 @@
 ---
-- name: Setting up Workstation
+- name: Setting up Workstation as SU 
   hosts: localhost
   become: true
+  gather_facts: false
   roles:
     - common
 
 
+- name: Setting up Workstation as local user 
+  hosts: localhost
+  gather_facts: false
+  become: false
+  roles:
+    - vim
+
+  
