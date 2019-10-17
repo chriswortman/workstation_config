@@ -14,8 +14,6 @@ set hlsearch    " highlight matching
 
 set foldenable   " enabling folding
 
-inoremap <esc>
-
 
 " Vundle Specific configuration
 set nocompatible              " be iMproved, required
