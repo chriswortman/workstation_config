@@ -17,8 +17,12 @@ sudo apt install -y git ansible
 
 ### Things to to:
 - [x] create intial script to install ansible. 
-- [ ] create ansible playbook to install apts
+- [x] create ansible playbook to install apts
 - [ ] create molecule setup for testing in docker?
+  - [ ] create molecule for 'common-apt'
+  - [ ] tests for different bins to exist.
+  - [ ] report versions?
+
 
 
   
