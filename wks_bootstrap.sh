@@ -4,9 +4,7 @@
 ## tested with ubuntu 16.04
 
 apt update
-apt install -y git 
-apt install -y python-pip
+apt install -y git ansible 
 
-pip install ansible==2.4
 
 
