@@ -10,6 +10,7 @@
     - nfs-common
     - tree
     - htop
+    - iftop
     - docker.io
     - docker-compose
     - nmap
@@ -17,3 +18,4 @@
     - ncdu
     - tmux
     - python-pip
+    - python-vagrant
