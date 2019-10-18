@@ -12,8 +12,14 @@ basically, will run these two commands, installing git, and ansible.
 ```shell
 sudo apt update
 sudo apt install -y git ansible
+pip install 
 ```
-
+## Quickstart
+```shell
+chris@pop-os:~/code/workstation_config$ sudo -H ./wks_bootstrap.sh
+chris@pop-os:~/code/workstation_config$ ansible-playbook local_machine.yml -K
+SUDO password:
+```
 
 ### Things to to:
 - [x] create intial script to install ansible. 
