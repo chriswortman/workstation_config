@@ -5,6 +5,5 @@
 
 apt update
 apt install -y git ansible 
-
-
+pip install --upgrade setuptools
 

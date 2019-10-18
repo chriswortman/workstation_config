@@ -4,7 +4,7 @@
   become: true
   gather_facts: false
   roles:
-    - common
+    - common-apt
 
 
 - name: Setting up Workstation as local user 

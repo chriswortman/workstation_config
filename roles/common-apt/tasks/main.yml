@@ -16,7 +16,4 @@
     - sshpass
     - ncdu
     - tmux
-
-
-
-
+    - python-pip
