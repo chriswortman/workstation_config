@@ -14,3 +14,5 @@ set hlsearch    " highlight matching
 
 set foldenable   " enabling folding
 
+syntax on   "  enable syntax highlighting
+filetype plugin indent on  " auto indents based on filetype
