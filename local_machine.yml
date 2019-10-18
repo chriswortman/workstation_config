@@ -5,12 +5,15 @@
   gather_facts: false
   roles:
     - common-apt
-
+  tags:
+    - common
 
 - name: Setting up Workstation as local user 
   hosts: localhost
   gather_facts: false
   become: false
   roles:
+    - vim
+  tags:
     - vim
 
