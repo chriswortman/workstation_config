@@ -1,21 +1,7 @@
 ---
 - name: install apt packages
   apt:
-    name: "{{ item }}"
+    name: "{{ list_of_apts }}"
     state: present
     update_cache: yes
-  with_items:
-    - vagrant
-    - virtualbox
-    - nfs-common
-    - tree
-    - htop
-    - iftop
-    - docker.io
-    - docker-compose
-    - nmap
-    - sshpass
-    - ncdu
-    - tmux
-    - python-pip
-    - python-vagrant
+

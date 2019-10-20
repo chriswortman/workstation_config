@@ -1,2 +1,24 @@
 ---
 # vars file for common-apt
+list_of_apts: "{{ hypervisor_apts + user_apts + server_apts }}"
+
+hypervisor_apts:
+  - vagrant
+  - virtualbox
+  - docker.io
+  - docker-compose
+
+user_apts:
+  - tree
+  - htop
+  - iftop
+  - nmap
+  - sshpass
+  - ncdu
+  - tmux
+  - python-pip
+  - python-vagrant
+
+server_apts:
+  - nfs-common
+
