@@ -9,5 +9,11 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
+    - name: Install requirments for build
       run: sudo ./wks_bootstrap.sh
+    - name: print test matrix out
+      working-directory: roles/common-apt/
+      run: molecule matrix test
+    - name: Run 'Molecule test on common-apt role'
+      working-directory: roles/common-apt/
+      run: molecule test
