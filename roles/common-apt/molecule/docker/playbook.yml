@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    list_of_apts:
+      - tree
+  roles:
+    - role: common-apt
