@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install requirments for build
-      run: sudo ./wks_bootstrap.sh
+      run: sudo scripts/wks_bootstrap.sh
     - name: print test matrix out
       working-directory: roles/common-apt/
       run: molecule matrix test
