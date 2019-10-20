@@ -5,5 +5,5 @@
 
 apt update
 apt install -y git ansible 
-pip install --upgrade setuptools molecule
+pip install --upgrade setuptools molecule molecule[vagrant]
 
