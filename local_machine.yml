@@ -3,6 +3,22 @@
   hosts: localhost
   become: true
   gather_facts: false
+  vars:
+       list_of_apts:
+          - vagrant
+          - virtualbox
+          - docker.io
+          - docker-compose
+          - tree
+          - htop
+          - iftop
+          - nmap
+          - sshpass
+          - ncdu
+          - tmux
+          - python-pip
+          - python-vagrant
+          - nfs-common
   roles:
     - common-apt
   tags:
