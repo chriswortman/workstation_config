@@ -1,6 +1,7 @@
 ---
 # vars file for common-apt
-list_of_apts: "{{ hypervisor_apts + user_apts + server_apts }}"
+list_of_apts:
+  - tree
 
 hypervisor_apts:
   - vagrant
