@@ -4,4 +4,3 @@
     name: "{{ list_of_apts }}"
     state: present
     update_cache: yes
-
