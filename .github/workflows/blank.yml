@@ -5,14 +5,10 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     
     steps:
     - uses: actions/checkout@v1
-    - name: Run apt installs
-      run: sudo scripts/ci_bootstrap.sh
-    - name: Run pip install
-      run: pip install -r requirements.txt
     - name: print test matrix out
       working-directory: roles/common-apt/
       run: molecule matrix test -s docker
