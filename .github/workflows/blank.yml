@@ -9,6 +9,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: install pip packages
+      run: pip install -r requirements.txt
     - name: print test matrix out
       working-directory: roles/common-apt/
       run: molecule matrix test -s docker
