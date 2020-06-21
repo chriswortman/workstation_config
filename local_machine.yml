@@ -5,6 +5,7 @@
   gather_facts: false
   vars:
        list_of_apts:
+          - vim
           - vagrant
           - virtualbox
           - docker.io
@@ -16,8 +17,8 @@
           - sshpass
           - ncdu
           - tmux
-          - python-pip
-          - python-vagrant
+#          - python-pip
+#          - python-vagrant
           - nfs-common
   roles:
     - common-apt
