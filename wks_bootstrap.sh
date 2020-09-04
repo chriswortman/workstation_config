@@ -6,4 +6,3 @@
 apt update
 apt install -y git ansible python3 python3-pip
 pip3 install --upgrade setuptools
-
