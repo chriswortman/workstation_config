@@ -17,6 +17,7 @@
           - sshpass
           - ncdu
           - tmux
+          - python3-venv
 #          - python-pip
 #          - python-vagrant
           - nfs-common
